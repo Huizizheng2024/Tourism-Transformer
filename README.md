@@ -34,4 +34,39 @@ Ecotourism is an important segment of the tourism industry, emphasizing environm
 5. **Recommendations**: Propose management strategies based on the findings.
 
 ## Project Structure
+root
+│ README.md # Project overview
+│ requirements.txt # Dependencies
+│ main.py # Main script for running the Transformer model
+│
+└───data
+│ │ ecotourism_dataset # Ecotourism-related data
+│ │ economic_dataset # Economic data for model training
+│
+└───models
+│ transformer_model.py # Transformer model implementation
+
+
+
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/ecotourism-transformer-prediction.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd ecotourism-transformer-prediction
+    ```
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To run the model, simply execute the following command:
+```bash
+python main.py
 
